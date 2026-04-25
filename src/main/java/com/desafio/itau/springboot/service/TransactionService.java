@@ -26,4 +26,8 @@ public class TransactionService {
 
         transactions.add(new Transaction(valor, dataHora));
     }
+
+    public void deleteTransactions() {
+        transactions.clear();
+    }
 }
