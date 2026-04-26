@@ -1,5 +1,8 @@
 Minha versão do desafio Spring Boot: https://github.com/feltex/desafio-itau-backend
 
+## Stacks
+- Java 17 e Spring Boot 4.0.6
+
 ## Estrutura do Projeto
 
 - controller → endpoints
