@@ -1,10 +1,8 @@
 Minha versão do desafio Spring Boot: https://github.com/feltex/desafio-itau-backend
 
-## Tech Stack
+## Stacks
 
-![Java](https://img.shields.io/badge/Java-17-blue)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen)
-![Maven](https://img.shields.io/badge/Maven-Build-red)
+- Java 17 e Spring Boot 4.0.6
 
 ## Estrutura do Projeto
 
