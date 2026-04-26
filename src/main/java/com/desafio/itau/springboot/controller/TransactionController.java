@@ -8,19 +8,19 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("transacoes")
+@RequestMapping("/transacao")
 public class TransactionController {
 
-    private final TransactionService transacaoService;
+    private final TransactionService transactionService;
 
     public TransactionController(TransactionService transactionService) {
-        this.transacaoService = transactionService;
+        this.transactionService = transactionService;
     }
 
     @PostMapping
     private ResponseEntity<Void> registerTransaction(@RequestBody Transaction newTransactionRequest) {
         try {
-            transacaoService.addTransaction(newTransactionRequest.valor(), newTransactionRequest.dataHora());
+            transactionService.addTransaction(newTransactionRequest.valor(), newTransactionRequest.dataHora());
             return ResponseEntity.accepted().build();
 
         } catch (UnprocessableEntityException e) {
@@ -30,7 +30,7 @@ public class TransactionController {
 
     @DeleteMapping
     private ResponseEntity<Void> deleteTransactions() {
-        transacaoService.deleteTransactions();
+        transactionService.deleteTransactions();
         return ResponseEntity.ok().build();
     }
 }
