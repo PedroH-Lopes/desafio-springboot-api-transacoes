@@ -1,4 +1,4 @@
-Minha versão do desafio Spring Boot: https://github.com/feltex/desafio-itau-backend
+Minha versão do desafio Spring Boot para criação de uma API REST: https://github.com/feltex/desafio-itau-backend
 
 ## Stacks
 
