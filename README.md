@@ -22,7 +22,7 @@
 <h2 id="structure">🏗️ Estrutura do Projeto</h2>
 
 ```bash
-src/main/java/com/kipperdev/orderhub/
+src/main/java/com/desafio/itau/springboot/
 ├── controller/     # Controllers REST
 ├── dto/            # Data Transfer Objects
 ├── exception/      # Exceções
