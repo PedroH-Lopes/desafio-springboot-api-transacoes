@@ -3,7 +3,7 @@
 <p align="center">
  <a href="#tech">Tecnologias</a> • 
  <a href="#started">Execução</a> • 
-  <a href="#routes">Endpoints da API</a> •
+  <a href="#routes">Endpoints da API</a> 
 </p>
 
 <p align="center">
