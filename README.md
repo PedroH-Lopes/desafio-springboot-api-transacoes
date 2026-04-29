@@ -7,10 +7,11 @@
 </p>
 
 <p align="center">
-    <b>Minha versão do desafio Spring Boot para criação de uma API REST: 
-        </b>
+    <b>Minha versão do desafio Spring Boot para criação de uma API REST: </b>
 </p>
-<p align="center"><b>https://github.com/feltex/desafio-itau-backend</b>b</p>
+<p align="center">
+        <b>https://github.com/feltex/desafio-itau-backend</b>
+</p>
 
 <h2 id="features">🚀 Funcionalidades</h2>
 
