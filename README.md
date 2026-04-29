@@ -15,7 +15,9 @@
 
 <h2 id="features">🚀 Funcionalidades</h2>
 
-Aqui você descreve o que seu projeto faz
+- Registra transações
+- Retorna estatisticas das transações nos últimos 60 segundos
+- Deleta todas as transações
 
 <h2 id="structure">🏗️ Estrutura do Projeto</h2>
 
