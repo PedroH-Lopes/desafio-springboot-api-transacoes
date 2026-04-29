@@ -1,8 +1,8 @@
 package com.desafio.itau.springboot.controller;
 
 
+import com.desafio.itau.springboot.dto.TransactionRequest;
 import com.desafio.itau.springboot.exception.UnprocessableEntityException;
-import com.desafio.itau.springboot.model.Transaction;
 import com.desafio.itau.springboot.service.TransactionService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +18,7 @@ public class TransactionController {
     }
 
     @PostMapping
-    private ResponseEntity<Void> registerTransaction(@RequestBody Transaction newTransactionRequest) {
+    private ResponseEntity<Void> registerTransaction(@RequestBody TransactionRequest newTransactionRequest) {
         try {
             transactionService.addTransaction(newTransactionRequest.valor(), newTransactionRequest.dataHora());
             return ResponseEntity.accepted().build();
