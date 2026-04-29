@@ -36,7 +36,7 @@ cd desafio-springboot-api-trasacoes
 | rota               | descrição                                          
 |----------------------|-----------------------------------------------------
 | <kbd>POST /transacao</kbd>     | cria uma transação [detalhes da resposta](#get-auth-detail)
-| <kbd>GET /estatistica</kbd>     | retorna as estatiscas das transações nos últimos 60 segundos [detalhes da requisição](#post-auth-detail)
+| <kbd>GET /estatistica</kbd>     | retorna as estatisticas das transações nos últimos 60 segundos [detalhes da requisição](#post-auth-detail)
 | <kbd>DELETE /transacao</kbd>     | deleta todas as transações (sem corpo) 
 
 <h3 id="get-auth-detail">POST /transacao</h3>
