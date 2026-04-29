@@ -10,6 +10,22 @@
     <b>Minha versão do desafio Spring Boot para criação de uma API REST: https://github.com/feltex/desafio-itau-backend</b>
 </p>
 
+<h2 id="features">🚀 Funcionalidades</h2>
+
+Aqui você descreve o que seu projeto faz
+
+<h2 id="structure">🏗️ Estrutura do Projeto</h2>
+
+```bash
+src/main/java/com/kipperdev/orderhub/
+├── controller/     # Controllers REST
+├── dto/            # Data Transfer Objects
+├── exception/      # Exceções
+├── model/          # Entidade Transaction
+├── service/        # Lógica de negócio
+└── SpringBootApplication.java
+```
+
 <h2 id="technologies">💻 Tecnologias</h2>
 
 - Java 17
