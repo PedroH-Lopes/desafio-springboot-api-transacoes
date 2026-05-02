@@ -31,7 +31,7 @@ src/main/java/com/desafio/itau/springboot/
 └── SpringBootApplication.java
 ```
 
-<h2 id="technologies">💻 Tecnologias</h2>
+<h2 id="tech">💻 Tecnologias</h2>
 
 - Java 17
 - Spring Boot 4.0.6
