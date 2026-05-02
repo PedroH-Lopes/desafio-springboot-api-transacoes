@@ -36,7 +36,7 @@ src/main/java/com/desafio/itau/springboot/
 - Java 17
 - Spring Boot 4.0.6
 
-<h2 id="started">🚀 Primeiros passos</h2>
+<h2 id="started">🚀 Execução</h2>
 
 <h3>Clonando</h3>
 
